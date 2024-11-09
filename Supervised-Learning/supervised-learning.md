@@ -1,19 +1,18 @@
-# Machine Learning course by Andrew Ng
+# Machine Learning Course by Andrew Ng
+
 ## What is Machine Learning?
-Field of study that gives computers the ability to learn without being explicitly programmed.
-*- Arthur Samuel*
-(1959)
+Field of study that gives computers the ability to learn without being explicitly programmed.  
+*– Arthur Samuel (1959)*
+
 ## Machine Learning Algorithms
 - Supervised Learning (used most in many real-world applications)
-- Unsupervised Learning 
+- Unsupervised Learning
 
-### Supervised Learning:
-It refers to algorithms that learn x to y mappings. The key characteristic of supervised learning is that you give your learning algorithm examples to learn from. That include the right answers, whereby right answer, I mean the correct label y for a given input x, and is by seeing correct pairs of input x and desired output of label y that the learning algorithm eventually learns to take just the input alone without the output label and gives a reasonably accurate prediction or guess of the output.
+### Supervised Learning
+Supervised learning refers to algorithms that learn mappings from `x` to `y`. The key characteristic of supervised learning is that it trains on examples with correct answers, where `y` is the label corresponding to input `x`. By seeing pairs of input `x` and desired output `y`, the algorithm eventually learns to predict the output label accurately from just the input.
 
-![I-O Mapping](https://github.com/sharjeelbhullar/Machine-Learning-Specialization/blob/main/I-O%20Mapping.png)
+<img src="https://github.com/sharjeelbhullar/Machine-Learning-Specialization/blob/main/I-O%20Mapping.png">
 
+In these applications, you first train your model with examples of inputs `x` and the correct labels `y`. Once the model has learned from these `(x, y)` pairs, it can take a new input `x` it has not seen before and try to predict the appropriate output `y`.
 
-In all of these applications, you will first train your model with examples of inputs x and the right answers, that is the labels y. After the model has learned from these input, output, or x and y pairs, they can take a brand new input x, something it has never seen before, and try to produce the appropriate corresponding output y.
-
-By getting the data, a model can easily predict the price of a house of any size using this information or plotting graph of that particular size. For example, if a person chooses a house of 750 feet in size then the price will be predicted by analysing the lesser and higher values which means it must be between 180k to 210k by comparing with the other values. It is an example of a particular type of supervised learning called regression. By regression, we are trying to predict a number from infinitely many possible numbers such as the house prices in this example.
-
+For instance, by using data on house sizes and prices, a model can predict the price of a house of any given size by analyzing similar examples. If a person chooses a house of 750 square feet, the model can estimate the price by comparing it with prices of other houses of similar sizes. This process is an example of a specific type of supervised learning called regression, where we try to predict a numerical value, such as house prices in this case.
