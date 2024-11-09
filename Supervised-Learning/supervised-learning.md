@@ -11,7 +11,7 @@ Field of study that gives computers the ability to learn without being explicitl
 ### Supervised Learning
 Supervised learning refers to algorithms that learn mappings from `x` to `y`. The key characteristic of supervised learning is that it trains on examples with correct answers, where `y` is the label corresponding to input `x`. By seeing pairs of input `x` and desired output `y`, the algorithm eventually learns to predict the output label accurately from just the input.
 
-<img src="https://github.com/sharjeelbhullar/Machine-Learning-Specialization/blob/main/I-O%20Mapping.png">
+<img src="I-O Mapping.png">
 
 In these applications, you first train your model with examples of inputs `x` and the correct labels `y`. Once the model has learned from these `(x, y)` pairs, it can take a new input `x` it has not seen before and try to predict the appropriate output `y`.
 
